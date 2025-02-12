@@ -1,7 +1,14 @@
 window.addEventListener("DOMContentLoaded", function(){
-     const allmenu = document.querySelector("#btn .me");
+    
+    const allmenu = document.querySelector("#btn .me");
+    allmenu = this.document.getElementsByClassName("content")
+    contents.item(0).addEventListener("click",function(){
+    })
+
+
+    //  const allmenu = document.querySelector("#btn .me");
     allmenu.addEventListener("click",function(){
-    alert("2번만")
+        contents.item(0).innerHTML= "첫번째 버튼만"
      })
 
     
